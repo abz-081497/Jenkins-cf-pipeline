@@ -18,8 +18,8 @@ pipeline {
 			description: 'Please insert the environment'
 			)
 		string(
-			name: 'stackName-abigael', 
-			defaultValue: 'myStack', 
+			name: 'stackName', 
+			defaultValue: 'myStack-abigael', 
 			description: 'Please insert the stack name'
 			)
 	}
