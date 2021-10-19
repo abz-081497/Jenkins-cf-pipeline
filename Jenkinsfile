@@ -5,7 +5,7 @@ pipeline {
 	environment {
             bucketName = "test-cf-bucket-abigael"
 			stackFileName = "wp.yaml"
-			VpcId = "vvpc-0c0aaa01e7b925bed"
+			VpcId = "vpc-0c0aaa01e7b925bed"
 			PubSub1 = "subnet-0b6136fa65601f4a3"
 			PubSub2 = "subnet-03fce826b630d2558"
     }
