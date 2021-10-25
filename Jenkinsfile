@@ -6,7 +6,7 @@ pipeline {
 		AWS_REGION = 'us-east-1'
             bucketName = "test-cf-bucket-abigael"
 			stackFileName = "wp.yaml"
-			VpcId = "vvpc-0c170bd0c193cffda" //"vpc-0c0aaa01e7b925bed"
+			VpcId = "vpc-0c170bd0c193cffda" //"vpc-0c0aaa01e7b925bed"
 			PubSub1 = "subnet-0502b2ecb611f68e4" //"subnet-0b6136fa65601f4a3"
 			PubSub2 = "subnet-078da28077b44cc19" //"subnet-03fce826b630d2558"
     }
